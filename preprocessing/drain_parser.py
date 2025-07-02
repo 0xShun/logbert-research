@@ -16,7 +16,6 @@ class DrainParser:
     """
     Drain log parser implementation for template extraction.
     """
-    
     def __init__(self, depth: int = 4, sim_threshold: float = 0.4):
         """
         Initialize Drain parser.
